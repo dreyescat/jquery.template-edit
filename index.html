@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Template Edit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="template-edit.css">
+  </head>
+  <body>
+    <div class="template-edit">
+      <textarea class="template-source"></textarea>
+      <ul class="template-variables">
+        <li data-value="John"><a href="#">name</a></li>
+        <li data-value="Doe"><a href="#">surname</a></li>
+      </ul>
+      <iframe class="template-output"></iframe>
+    </div>
+    <script type="text/javascript" src="jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="mustache.js"></script>
+    <script type="text/javascript" src="jquery.template-edit.js"></script>
+  </body>
+</html>

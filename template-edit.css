@@ -1,0 +1,32 @@
+.template-edit * {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+.template-source {
+  float: left;
+  margin-right: 15px;
+  border: 1px solid #cdcdcd;
+  padding: 10px;
+  width: 40%;
+  min-height: 150px;
+  line-height: 14pt;
+  color: #333;
+  font-weight: 200;
+  font-size: 10pt;
+}
+
+.template-source:focus {
+  border-color: #33dd33;
+}
+
+.template-variables {
+  list-style: none;
+}
+
+.template-output {
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  margin: 15px 0;
+  width: 100%;
+  min-height: 400px;
+}
